@@ -1,0 +1,174 @@
+/*==============================  
+BASIC SETUP
+================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+
+/*==============================  
+RE-USEABLE CSS STYLE
+================================*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn{
+
+}
+
+/*=======================
+HEADER CSS STYLES  
+=========================*/
+header{
+    width: 100%;
+}
+
+.top-bar{
+    background: #0174b3;
+    width: 100%;
+    min-height: 50px;
+}
+
+.contact-area {
+	width: 50%;
+	float: left;
+	margin: 15px 0;
+}
+
+.contact-area ul li{
+    display: inline;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.contact-area ul li:last-child{
+    margin-right: 0;
+}
+
+.social-area {
+	width: 50%;
+	float: left;
+	margin: 15px 0;
+}
+
+.social-area ul{
+text-align: right;
+}
+
+.social-area ul li{
+    display: inline;
+    margin-right: 15px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.social-area ul li:last-child{
+    margin-right: 0;
+}
+
+.social-area ul li a:link,
+.social-area ul li a:visited{
+    /* color: #ffffff; */
+}
+.social-area ul li a:link i, .social-area ul li a:visited i {
+	color: #0174b3;
+	background: #ffffff;
+	padding: 3px 6px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/* MAIN NAVIGATION  */
+
+.main-navbar{
+    width: 100%;
+    background: #ffffff;
+}
+
+.main-navbar .logo-area{
+    margin: 15px 0;
+    width: 20%;
+    float: left;
+}
+
+.main-navbar .logo-area img{
+    width: 165px;
+    height: auto;
+    display: block;
+}
+
+.main-navbar .menu-area {
+	margin-top: 70px;
+	width: 60%;
+	float: left;
+	text-align: right;
+}
+
+.main-navbar .menu-area ul{
+
+}
+
+.main-navbar .menu-area ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.main-navbar .menu-area ul li a:link, 
+.main-navbar .menu-area ul li a:visited {
+	color: #686868;
+	text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 16px;
+}
+.main-navbar .menu-area ul li a:hover:link, 
+.main-navbar .menu-area ul li a:hover:visited {
+	color: #0174b3;
+}
+
+.main-navbar .menu-area ul li:active{
+    color: #0174b3;
+}
+
+.main-navbar .search-area {
+	width: 20%;
+	float: right;
+	margin-top: 70px;
+	position: relative;
+}
+
+.main-navbar .search-area input {
+	width: 100%;
+	display: inline-block;
+	padding: 8px 5px;
+	border: 1px solid #ddd;
+}
+.main-navbar .search-area input[type="submit"] {
+	background: url(img/search.png) no-repeat;
+	background-position: right center;
+	width: 20%;
+	position: absolute;
+	right: 5px;
+	top: 2px;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* Hero Area */
+
