@@ -268,7 +268,7 @@ text-align: right;
 /* CONSULTATION CSS */
 .consultation-area{
     margin: 50px 0;
-    background: linear-gradient(rgba(68,68,68,0.5), rgba(68,68,68,0.5)), url(img/consult-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/consult-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -320,14 +320,14 @@ text-align: right;
 }
 
 
-.team-area hr, .client-area hr{
+.team-area hr, .client-area hr, .about-text-area hr{
     border: 1px solid #ddd;
     margin: 8px auto;
     width: 10%;
     text-align: center;
 }
 
-.team-area .hr2, .client-area .hr2{
+.team-area .hr2, .client-area .hr2, .about-text-area .hr2{
     border: 2px solid #ddd;
     width: 5%;
 }
@@ -451,3 +451,25 @@ text-align: right;
 .client-text-area .btn-hero{
     margin-top: 10px;
 }
+
+
+/* ABOUT CSS STYLES */
+.about-area{
+    background: #ffffff;
+}
+
+.about-text-area{
+    text-align: center;
+}
+
+.about-text-area h2{
+    color: #0174b3;
+    padding: 10px 0;
+}
+
+.about-text-area p{
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* CONTACT AREA CSS STYLE  */
