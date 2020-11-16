@@ -19,6 +19,11 @@ ul li{
 img{
     width: 100%;
 }
+P{
+    color: #555;
+    line-height: 1.5em;
+    font-size: 16px;
+}
 
 /*==============================  
 RE-USEABLE CSS STYLE
@@ -29,7 +34,14 @@ RE-USEABLE CSS STYLE
 }
 
 .btn{
-
+    background: #333333;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px 1px #444;
 }
 
 /*=======================
@@ -108,13 +120,13 @@ text-align: right;
 }
 
 .main-navbar .logo-area img{
-    width: 165px;
+    width: 120px;
     height: auto;
     display: block;
 }
 
 .main-navbar .menu-area {
-	margin-top: 70px;
+	margin-top: 50px;
 	width: 60%;
 	float: left;
 	text-align: right;
@@ -148,7 +160,7 @@ text-align: right;
 .main-navbar .search-area {
 	width: 20%;
 	float: right;
-	margin-top: 70px;
+	margin-top: 50px;
 	position: relative;
 }
 
@@ -172,3 +184,125 @@ text-align: right;
 
 /* Hero Area */
 
+.hero-area{
+    background: linear-gradient(rgba(198,205,215,0.5),rgba(198,205,215,0.5)), url(img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    float: left;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    /* left: 50%;
+    transform: translate(-50%,-50%); */
+    color: #ffffff;
+    text-align: left;
+}
+
+.hero-text h1{
+    color: #0174b3;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+/* 
+.hero-text p{
+    color: #555;
+    line-height: 1.5em;
+    font-size: 16px;
+} */
+
+.hero-text .btn-hero{
+    background: rgba(1,116,179,1.0);
+}
+
+/* SLOGAN AREA */
+
+.slogan-area{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slogan-text{
+    width: 50%;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.slogan-text h2{
+    color: #0174b3;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+.slogan-text hr{
+    border: 1px solid #ddd;
+    margin: 8px auto;
+    width: 40%;
+    text-align: center;
+}
+
+.slogan-text .hr2{
+    border: 2px solid #ddd;
+    width: 20%;
+}
+
+.slogan-text span{
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+.slogan-text span i{
+    color: #6b6c6e;
+    font-size: 16px;
+}
+
+.slogan-text span .active{
+    color: #0174b3;
+}
+
+
+/* CONSULTATION CSS */
+.consultation-area{
+    margin: 50px 0;
+    background: linear-gradient(rgba(68,68,68,0.5), rgba(68,68,68,0.5)), url(img/consult-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.consultation-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.consultation-text h3{
+    color: #FFFFED;
+    font-size: 28px;
+    font: 200;
+}
+
+.consultation-text h2{
+    font-size: 45px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.consultation-text hr{
+    border: 3px solid #b9b3b3;
+    margin: 8px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.consultation-text .btn-hero{
+    background: #0174b3;
+}
