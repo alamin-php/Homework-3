@@ -215,7 +215,7 @@ text-align: right;
     font-size: 16px;
 } */
 
-.hero-text .btn-hero{
+.hero-text .btn-hero,.client-text-area .btn-hero{
     background: rgba(1,116,179,1.0);
 }
 
@@ -250,17 +250,17 @@ text-align: right;
     width: 20%;
 }
 
-.slogan-text span{
+.slogan-text span, .service-area span{
     margin: 10px 5px;
     display: inline-block;
 }
 
-.slogan-text span i{
+.slogan-text span i, .service-area span i{
     color: #6b6c6e;
     font-size: 16px;
 }
 
-.slogan-text span .active{
+.slogan-text span .active, .service-area span .active{
     color: #0174b3;
 }
 
@@ -271,7 +271,7 @@ text-align: right;
     background: linear-gradient(rgba(68,68,68,0.5), rgba(68,68,68,0.5)), url(img/consult-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
     position: relative;
 }
@@ -320,14 +320,14 @@ text-align: right;
 }
 
 
-.team-area hr{
+.team-area hr, .client-area hr{
     border: 1px solid #ddd;
     margin: 8px auto;
     width: 10%;
     text-align: center;
 }
 
-.team-area .hr2{
+.team-area .hr2, .client-area .hr2{
     border: 2px solid #ddd;
     width: 5%;
 }
@@ -366,4 +366,88 @@ text-align: right;
 
 .col-1-of-4 .col-body h2{
     text-transform: uppercase;
+}
+
+
+/* SERVICES AREA CSS STYLE */
+.service-area{
+    background: #ffffff;
+    text-align: center;
+}
+
+.service-area h2, h3{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0174b3;
+}
+
+.service-area hr{
+    border: 1px solid #ddd;
+    margin: 8px auto;
+    width: 10%;
+    text-align: center;
+}
+
+.service-area .hr2{
+    border: 2px solid #ddd;
+    width: 5%;
+}
+
+.service-area .col-1-of-4{
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.service-area .col-1-of-4 span i{
+    font-size: 45px;
+    color: rgba(68,68,68,0.7);
+    padding: 15px 0;
+}
+
+/* CLIENTS AREA STYLE */
+
+.client-area{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/client-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding: 50px 0;
+    margin: 50px 0;
+    color: #fff;
+    position: relative;
+}
+
+.client-text-area{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.client-text-area h2{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: normal;
+}
+.client-text-area p{
+    color: #ffffff;
+    line-height: 1.5em;
+    width: 50%;
+    margin: 30px auto;
+    display: block;
+}
+
+.client-text-area .avater{
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.client-text-area .btn-hero{
+    margin-top: 10px;
 }
