@@ -184,6 +184,11 @@ header {
     display: inline-block;
     padding: 8px 5px;
     border: 1px solid #ddd;
+    outline: 0;
+}
+
+.main-navbar .search-area input:hover {
+    outline: 1px solid #0174b3;
 }
 
 .main-navbar .search-area input[type="submit"] {
@@ -195,6 +200,10 @@ header {
     top: 2px;
     border: none;
     cursor: pointer;
+}
+
+.main-navbar .search-area input[type="submit"]:hover {
+    outline: none;
 }
 
 
@@ -236,6 +245,11 @@ header {
 .hero-text .btn-hero,
 .client-text-area .btn-hero {
     background: rgba(1, 116, 179, 1.0);
+    transition: 0.5s;
+}
+.hero-text .btn-hero:hover,
+.client-text-area .btn-hero:hover {
+    background: rgba(1,116,231,0.9);
 }
 
 
@@ -331,6 +345,10 @@ header {
     background: #0174b3;
 }
 
+.consultation-text .btn-hero:hover {
+    background: rgba(1,116,231,0.9);
+}
+
 
 /* TEAM AREA CSS STYLE  */
 
@@ -361,10 +379,10 @@ header {
 }
 
 .inner-team-area {
+    overflow: hidden;
     width: 100%;
     margin: 50px 0;
-    background: #d8d8da;
-    height: 60vh;
+    background: rgba(68,68,68,0.5);
 }
 
 .col-1-of-4 {
@@ -545,6 +563,7 @@ h3 {
     border: 1px solid #ddd;
     outline: none;
     color: #444444;
+    border-radius: 0;
 }
 
 .contact-form-area textarea {
@@ -555,6 +574,7 @@ h3 {
     border: 1px solid #ddd;
     outline: none;
     color: #444444;
+    border-radius: 0;
 }
 
 .contact-form-area input[type="submit"] {
@@ -563,6 +583,7 @@ h3 {
     margin-top: 20px;
     text-transform: uppercase;
     cursor: pointer;
+    border-radius: none;
 }
 
 
