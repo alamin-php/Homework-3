@@ -564,3 +564,25 @@ h3 {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+
+/* FOOTER AREA CSS STYLE  */
+
+.top-footer {
+    background: #363a43;
+    height: auto;
+    overflow: hidden;
+}
+
+.top-footer .col-1-of-4 {
+    border: 0px solid;
+    box-shadow: none;
+    border-right: 1px solid #dddddd;
+    padding: 0 5px;
+}
+
+.top-footer .col-1-of-4:last-child {
+    border-right: 0px solid #ddd;
+}
+
+.top-footer h2 {}
