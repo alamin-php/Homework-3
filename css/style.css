@@ -571,7 +571,7 @@ h3 {
 .top-footer {
     background: #363a43;
     height: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .top-footer .col-1-of-4 {
@@ -581,9 +581,8 @@ h3 {
     padding: 0 5px;
     display: block;
 }
-
-.top-footer .col-1-of-4:last-child {
-    border-right: 0px solid #ddd;
+.col-1-of-4.top-footer-news.mr-0 {
+    border: 0;
 }
 
 .top-footer h2 {
@@ -698,4 +697,16 @@ h3 {
     padding: 3px 6px;
     text-align: center;
     border-radius: 3px;
+}
+
+.footer-text{
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-text p{
+    font-size: 18px;
+    text-align: center;
+    display: block;
 }
