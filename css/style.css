@@ -1,39 +1,49 @@
 /*==============================  
 BASIC SETUP
 ================================*/
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
     color: #333333;
+    height: 100%;
+    box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-img{
+
+img {
     width: 100%;
 }
-P{
+
+P {
     color: #555;
     line-height: 1.5em;
     font-size: 16px;
 }
 
+
 /*==============================  
 RE-USEABLE CSS STYLE
 ================================*/
-.container{
+
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.btn{
+.btn {
     background: #333333;
     padding: 15px 50px;
     display: inline-block;
@@ -44,148 +54,154 @@ RE-USEABLE CSS STYLE
     box-shadow: 1px 2px 5px 1px #444;
 }
 
+
 /*=======================
 HEADER CSS STYLES  
 =========================*/
-header{
+
+header {
     width: 100%;
 }
 
-.top-bar{
+.top-bar {
     background: #0174b3;
     width: 100%;
     min-height: 50px;
 }
 
 .contact-area {
-	width: 50%;
-	float: left;
-	margin: 15px 0;
+    width: 50%;
+    float: left;
+    margin: 15px 0;
 }
 
-.contact-area ul li{
+.contact-area ul li {
     display: inline;
     margin-right: 10px;
     color: #ffffff;
 }
 
-.contact-area ul li:last-child{
+.contact-area ul li:last-child {
     margin-right: 0;
 }
 
 .social-area {
-	width: 50%;
-	float: left;
-	margin: 15px 0;
+    width: 50%;
+    float: left;
+    margin: 15px 0;
 }
 
-.social-area ul{
-text-align: right;
+.social-area ul {
+    text-align: right;
 }
 
-.social-area ul li{
+.social-area ul li {
     display: inline;
     margin-right: 15px;
     color: #ffffff;
     padding: 10px 0;
 }
 
-.social-area ul li:last-child{
+.social-area ul li:last-child {
     margin-right: 0;
 }
 
 .social-area ul li a:link,
-.social-area ul li a:visited{
+.social-area ul li a:visited {
     /* color: #ffffff; */
 }
-.social-area ul li a:link i, .social-area ul li a:visited i {
-	color: #0174b3;
-	background: #ffffff;
-	padding: 3px 6px;
+
+.social-area ul li a:link i,
+.social-area ul li a:visited i {
+    color: #0174b3;
+    background: #ffffff;
+    padding: 3px 6px;
     text-align: center;
     border-radius: 3px;
 }
 
+
 /* MAIN NAVIGATION  */
 
-.main-navbar{
+.main-navbar {
     width: 100%;
     background: #ffffff;
 }
 
-.main-navbar .logo-area{
+.main-navbar .logo-area {
     margin: 15px 0;
     width: 20%;
     float: left;
 }
 
-.main-navbar .logo-area img{
+.main-navbar .logo-area img {
     width: 120px;
     height: auto;
     display: block;
 }
 
 .main-navbar .menu-area {
-	margin-top: 50px;
-	width: 60%;
-	float: left;
-	text-align: right;
+    margin-top: 50px;
+    width: 60%;
+    float: left;
+    text-align: right;
 }
 
-.main-navbar .menu-area ul{
+.main-navbar .menu-area ul {}
 
-}
-
-.main-navbar .menu-area ul li{
+.main-navbar .menu-area ul li {
     display: inline-block;
     padding: 10px 15px;
 }
-.main-navbar .menu-area ul li a:link, 
+
+.main-navbar .menu-area ul li a:link,
 .main-navbar .menu-area ul li a:visited {
-	color: #686868;
-	text-transform: uppercase;
+    color: #686868;
+    text-transform: uppercase;
     font-weight: 700;
     transition: 0.5s;
     font-size: 16px;
 }
-.main-navbar .menu-area ul li a:hover:link, 
+
+.main-navbar .menu-area ul li a:hover:link,
 .main-navbar .menu-area ul li a:hover:visited {
-	color: #0174b3;
+    color: #0174b3;
 }
 
-.main-navbar .menu-area ul li:active{
+.main-navbar .menu-area ul li:active {
     color: #0174b3;
 }
 
 .main-navbar .search-area {
-	width: 20%;
-	float: right;
-	margin-top: 50px;
-	position: relative;
+    width: 20%;
+    float: right;
+    margin-top: 50px;
+    position: relative;
 }
 
 .main-navbar .search-area input {
-	width: 100%;
-	display: inline-block;
-	padding: 8px 5px;
-	border: 1px solid #ddd;
+    width: 100%;
+    display: inline-block;
+    padding: 8px 5px;
+    border: 1px solid #ddd;
 }
+
 .main-navbar .search-area input[type="submit"] {
-	background: url(img/search.png) no-repeat;
-	background-position: right center;
-	width: 20%;
-	position: absolute;
-	right: 5px;
-	top: 2px;
-	border: none;
-	cursor: pointer;
+    background: url(img/search.png) no-repeat;
+    background-position: right center;
+    width: 20%;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    border: none;
+    cursor: pointer;
 }
 
 
 /* Hero Area */
 
-.hero-area{
-    background: linear-gradient(rgba(198,205,215,0.5),rgba(198,205,215,0.5)), url(img/hero-bg.jpg) no-repeat;
+.hero-area {
+    background: linear-gradient(rgba(198, 205, 215, 0.5), rgba(198, 205, 215, 0.5)), url(img/hero-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -194,7 +210,7 @@ text-align: right;
     float: left;
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     top: 50%;
     /* left: 50%;
@@ -203,11 +219,13 @@ text-align: right;
     text-align: left;
 }
 
-.hero-text h1{
+.hero-text h1 {
     color: #0174b3;
     margin-bottom: 10px;
     font-size: 40px;
 }
+
+
 /* 
 .hero-text p{
     color: #555;
@@ -215,60 +233,66 @@ text-align: right;
     font-size: 16px;
 } */
 
-.hero-text .btn-hero,.client-text-area .btn-hero{
-    background: rgba(1,116,179,1.0);
+.hero-text .btn-hero,
+.client-text-area .btn-hero {
+    background: rgba(1, 116, 179, 1.0);
 }
+
 
 /* SLOGAN AREA */
 
-.slogan-area{
+.slogan-area {
     width: 100%;
     overflow: hidden;
 }
 
-.slogan-text{
+.slogan-text {
     width: 50%;
     margin: 50px auto 0px auto;
     text-align: center;
 }
 
-.slogan-text h2{
+.slogan-text h2 {
     color: #0174b3;
     font-size: 28px;
     padding: 10px 0;
 }
 
-.slogan-text hr{
+.slogan-text hr {
     border: 1px solid #ddd;
     margin: 8px auto;
     width: 40%;
     text-align: center;
 }
 
-.slogan-text .hr2{
+.slogan-text .hr2 {
     border: 2px solid #ddd;
     width: 20%;
 }
 
-.slogan-text span, .service-area span{
+.slogan-text span,
+.service-area span {
     margin: 10px 5px;
     display: inline-block;
 }
 
-.slogan-text span i, .service-area span i{
+.slogan-text span i,
+.service-area span i {
     color: #6b6c6e;
     font-size: 16px;
 }
 
-.slogan-text span .active, .service-area span .active{
+.slogan-text span .active,
+.service-area span .active {
     color: #0174b3;
 }
 
 
 /* CONSULTATION CSS */
-.consultation-area{
+
+.consultation-area {
     margin: 50px 0;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/consult-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/consult-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -276,7 +300,7 @@ text-align: right;
     position: relative;
 }
 
-.consultation-text{
+.consultation-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -284,62 +308,66 @@ text-align: right;
     text-align: center;
 }
 
-.consultation-text h3{
+.consultation-text h3 {
     color: #FFFFED;
     font-size: 28px;
     font: 200;
 }
 
-.consultation-text h2{
+.consultation-text h2 {
     font-size: 45px;
     color: #ffffff;
     margin-top: 10px;
 }
 
-.consultation-text hr{
+.consultation-text hr {
     border: 3px solid #b9b3b3;
     margin: 8px auto;
     width: 50%;
     text-align: center;
 }
 
-.consultation-text .btn-hero{
+.consultation-text .btn-hero {
     background: #0174b3;
 }
 
+
 /* TEAM AREA CSS STYLE  */
 
-.team-area{
+.team-area {
     width: 100%;
 }
 
-.team-area h2{
-   text-align: center;
-   color: #0174b3;
-   padding: 10px 0;
+.team-area h2 {
+    text-align: center;
+    color: #0174b3;
+    padding: 10px 0;
 }
 
-
-.team-area hr, .client-area hr, .about-text-area hr{
+.team-area hr,
+.client-area hr,
+.about-text-area hr {
     border: 1px solid #ddd;
     margin: 8px auto;
     width: 10%;
     text-align: center;
 }
 
-.team-area .hr2, .client-area .hr2, .about-text-area .hr2{
+.team-area .hr2,
+.client-area .hr2,
+.about-text-area .hr2 {
     border: 2px solid #ddd;
     width: 5%;
 }
 
-.inner-team-area{
+.inner-team-area {
     width: 100%;
     margin: 50px 0;
     background: #d8d8da;
     height: 60vh;
 }
 
-.col-1-of-4{
+.col-1-of-4 {
     width: 24%;
     float: left;
     margin: 50px 0;
@@ -348,67 +376,70 @@ text-align: right;
     font-weight: 400;
 }
 
-.mr-0{
+.mr-0 {
     margin-right: 0;
 }
 
-.col-1-of-4 img{
+.col-1-of-4 img {
     width: 100%;
     height: auto;
     vertical-align: middle;
 }
 
-.col-1-of-4 .col-body{
+.col-1-of-4 .col-body {
     background: #ffffff;
     padding: 10px;
     text-align: center;
 }
 
-.col-1-of-4 .col-body h2{
+.col-1-of-4 .col-body h2 {
     text-transform: uppercase;
 }
 
 
 /* SERVICES AREA CSS STYLE */
-.service-area{
+
+.service-area {
     background: #ffffff;
     text-align: center;
 }
 
-.service-area h2, h3{
+.service-area h2,
+h3 {
     margin-bottom: 10px;
     text-align: center;
     color: #0174b3;
 }
 
-.service-area hr{
+.service-area hr {
     border: 1px solid #ddd;
     margin: 8px auto;
     width: 10%;
     text-align: center;
 }
 
-.service-area .hr2{
+.service-area .hr2 {
     border: 2px solid #ddd;
     width: 5%;
 }
 
-.service-area .col-1-of-4{
+.service-area .col-1-of-4 {
     border: 1px solid #ddd;
     box-shadow: none;
 }
 
-.service-area .col-1-of-4 span i{
+.service-area .col-1-of-4 span i {
     font-size: 45px;
-    color: rgba(68,68,68,0.7);
+    color: rgba(68, 68, 68, 0.7);
     padding: 15px 0;
 }
 
+
 /* CLIENTS AREA STYLE */
 
-.client-area{
+.client-area {
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/client-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/client-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -418,7 +449,7 @@ text-align: right;
     position: relative;
 }
 
-.client-text-area{
+.client-text-area {
     width: 100%;
     position: absolute;
     text-align: center;
@@ -427,12 +458,13 @@ text-align: right;
     transform: translate(-50%, -50%);
 }
 
-.client-text-area h2{
+.client-text-area h2 {
     text-transform: uppercase;
     font-size: 45px;
     font-weight: normal;
 }
-.client-text-area p{
+
+.client-text-area p {
     color: #ffffff;
     line-height: 1.5em;
     width: 50%;
@@ -440,7 +472,7 @@ text-align: right;
     display: block;
 }
 
-.client-text-area .avater{
+.client-text-area .avater {
     width: 100px;
     height: auto;
     display: block;
@@ -448,28 +480,87 @@ text-align: right;
     margin: 30px auto;
 }
 
-.client-text-area .btn-hero{
+.client-text-area .btn-hero {
     margin-top: 10px;
 }
 
 
 /* ABOUT CSS STYLES */
-.about-area{
+
+.about-area {
+    width: 100%;
     background: #ffffff;
 }
 
-.about-text-area{
+.about-text-area {
     text-align: center;
 }
 
-.about-text-area h2{
+.about-text-area h2 {
     color: #0174b3;
     padding: 10px 0;
 }
 
-.about-text-area p{
+.about-text-area p {
     width: 50%;
     margin: 20px auto;
 }
 
+
 /* CONTACT AREA CSS STYLE  */
+
+.contact {
+    background: #1a4977;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    padding: 50px 10px;
+}
+
+.contact-text-area {
+    width: 48%;
+    float: left;
+}
+
+.contact-text-area h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-text-area p {
+    color: #ffffff;
+    line-height: 1.5em;
+}
+
+.contact-form-area {
+    width: 48%;
+    float: left;
+}
+
+.contact-form-area input {
+    width: 48%;
+    margin: 1%;
+    padding: 5px 8px;
+    float: left;
+    border: 1px solid #ddd;
+    outline: none;
+    color: #444444;
+}
+
+.contact-form-area textarea {
+    width: 98%;
+    margin: 1%;
+    padding: 5px 8px;
+    float: left;
+    border: 1px solid #ddd;
+    outline: none;
+    color: #444444;
+}
+
+.contact-form-area input[type="submit"] {
+    width: 15%;
+    padding: 10px 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
