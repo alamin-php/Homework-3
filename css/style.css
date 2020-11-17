@@ -733,3 +733,240 @@ h3 {
     text-align: center;
     display: block;
 }
+
+
+
+
+/* RESPONSIVE CSS STYLE */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+    .container {width: 100%;}
+    .contact-area {width: 100%;text-align: center;}
+    .top-bar {background: #0174b3;}
+    .social-area {display: none;}
+    .main-navbar .logo-area {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .main-navbar .logo-area img {
+        width: 150px;
+        display: inline-block;
+    }
+    .main-navbar .menu-area {
+        margin: 0;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .main-navbar .menu-area ul {
+        background: #0174B3;
+    }
+    .main-navbar .menu-area ul li a:link, .main-navbar .menu-area ul li a:visited {
+        color: #fff;
+    }
+    .main-navbar .menu-area ul li a:hover:link, .main-navbar .menu-area ul li a:hover:visited {
+        color: #dddddd;
+    }
+    .main-navbar .search-area {
+        width: 100%;
+    }
+    .main-navbar .search-area input[type="submit"] {
+        display: none;
+    }
+    .main-navbar .search-area {
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .main-navbar .search-area input {
+        width: 100%;
+        padding: 10px 5px;
+        text-align: center;
+        border: none;
+        font-size: 16px;
+    }
+    .main-navbar .search-area input:hover {
+        outline: 0;
+    }
+
+    .hero-area {
+        height: 60vh;
+    }
+
+    .hero-text {
+        top: 0;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .btn {
+        padding: 10px 20px;
+        margin-top: 14px;
+        box-shadow: none;
+    }
+
+    .slogan-text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .slogan-text h2 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .consultation-area {
+        margin: 0;
+        height: 30vh;
+    }
+    .consultation-text {
+        top: 0%;
+        left: 0%;
+        transform: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .consultation-text h3 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .consultation-text h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .consultation-text hr {
+        width: 28%;
+    }
+    .team-area h2 {
+        padding: 10px 0;
+    }
+    .team-area hr, .client-area hr, .about-text-area hr {
+        display: none;
+    }
+    .inner-team-area {
+        overflow: auto;
+        width: 100%;
+        margin: 0;
+    }
+    .inner-team-area .col-1-of-4{
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+        text-shadow: none;
+    }
+
+    .service-area hr {
+        display: none;
+    }
+
+    .service-area h2, h3 {
+        padding: 5px 0;
+    }
+
+    .service-area .col-1-of-4 {
+        margin: 0;
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid #ddd;
+    }
+    .service-area .col-1-of-4 span i {
+        padding: 5px 0;
+    }
+    .slogan-text span, .service-area span {
+        margin: 10px 0;
+    }
+
+    .client-area {
+        height: 100vh;
+        margin: 0;
+    }
+    .about-text-area {
+        padding: 20px 0;
+    }
+    .about-text-area p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .contact-text-area {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .contact-text-area h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    .contact-form-area {
+        width: 100%;
+        float: none;
+    }
+
+    .contact-form-area input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 5px;
+    }
+
+    .contact-form-area textarea {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 5px;
+    }
+
+    .contact-form-area input[type="submit"] {
+        width: 100%;
+        margin: 0;
+    }
+
+    .top-footer .col-1-of-4 {
+        width: 100%;
+        float: none;
+        text-align: center;
+        
+    }
+
+    .col-1-of-4.top-footer-news.mr-0 {
+        margin: 0;
+    }
+
+    .top-footer-news input {
+        width: 100%;
+        display: block;
+    }
+
+    .top-footer-news input[type="submit"] {
+        width: 50%;
+        position: unset;
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .news-social-area ul {
+        margin-top: 5px 0;
+        text-align: center;
+    }
+
+    .top-footer .col-1-of-4 {
+        margin: 0;
+        padding: 20px 0;
+        border-bottom: 1px solid #d1d1d1;
+        border-right: 0;
+    }
+}
